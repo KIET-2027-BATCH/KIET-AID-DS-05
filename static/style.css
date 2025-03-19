@@ -1,0 +1,82 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+}
+
+/* Textarea for input */
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+/* Submit button */
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Result styling */
+h2 {
+    margin-top: 20px;
+    color: #555;
+}
+
+/* Result message styling */
+.result {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.spam {
+    color: red;
+    background: #ffe5e5;
+}
+
+.not-spam {
+    color: green;
+    background: #e5ffe5;
+}
